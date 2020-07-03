@@ -6,12 +6,38 @@ package com.shubhi.dependencytest;
 
 public class data_objet implements java.io.Serializable {
 
-    static final long serialVersionUID = 1L;
+	static final long serialVersionUID = 1L;
 
-    public data_objet() {
-    }
+	private int i;
+	private int j;
+	private int k;
 
+	public data_objet() {
+	}
 
+	public int getI() {
+		return this.i;
+	}
+
+	public void setI(int i) {
+		this.i = i;
+	}
+
+	public int getJ() {
+		return this.j;
+	}
+
+	public void setJ(int j) {
+		this.j = j;
+	}
+
+	public int getK() {
+		return this.k;
+	}
+
+	public void setK(int k) {
+		this.k = k;
+	}
 
 
 }
